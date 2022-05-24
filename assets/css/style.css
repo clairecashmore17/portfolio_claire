@@ -1,0 +1,70 @@
+/* Pseudo */
+:root {
+    --primary-color: rgb(70, 13, 100);
+    --secondary-color: lavender;
+    --tertiary-color: rgb(176, 141, 242);
+}
+/* Header Start */
+header {
+    padding: 30px 35px 0 20px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    position: -webkit-sticky;
+    position:sticky; 
+
+    background-image: url(../imgs/background.JPG);
+    background-size: cover;
+    background-position: bottom;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    
+    margin: 0;
+}
+header a{
+    text-decoration: none;
+    color: var(--secondary-color)
+}
+/*Section navigation in heading*/
+header nav{
+    margin: 7px 0;
+}
+header nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+/* correct spacing of nav elements */
+header nav ul li a{
+    padding: 10px 30px;
+    font-weight: lighter;
+    font-size: 26px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Pseudo effects */
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    border-radius: 15px;
+    text-shadow:none;
+}
+/* Header end */
+
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sections h2{
+    color: var(--tertiary-color);
+  
+}
