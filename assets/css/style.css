@@ -149,5 +149,10 @@ body {
 /* Project Section End */
 
 /* Contact Information Start */
-
+.contact ul li{
+    color:var(--secondary-color);
+}
+.contact ul li a{
+    color: var(--tertiary-color);
+}
 /* Contact Information End */
