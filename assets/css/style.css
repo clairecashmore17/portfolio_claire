@@ -143,16 +143,26 @@ body {
     font-size: medium;
 }
 .project img {
-    width: 60%;
-  
+    width: 30%;
+    border-radius: 10%;
 }
 /* Project Section End */
 
 /* Contact Information Start */
-.contact ul li{
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info ul li{
     color:var(--secondary-color);
 }
-.contact ul li a{
+.info ul li a{
     color: var(--tertiary-color);
+}
+.icons img{
+    
+    width: 100px;
+    height: 100px;;
 }
 /* Contact Information End */
