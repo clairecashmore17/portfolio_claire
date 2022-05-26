@@ -86,21 +86,8 @@ body {
     color: var(--secondary-color);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-/* About Me Section Start */
 
-.bio img{
-    border-radius: 50%;
-    width: 250px;
-    height: 200px;
-    
-}
-.bio p{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-/* About Me Section End  */
-/* Tabs/sections (About me, Projects, Contact */
+/* Tabs/sections (About me, Projects, Contact) */
 .section-title {
     font-size: 36px;
     color: var(--secondary-color);
@@ -118,6 +105,25 @@ body {
     border-color: var(--secondary-border-color);
 }
 /* End tabs section */
+
+/* About Me Section Start */
+
+.bio img{
+    border-radius: 50%;
+    width: 250px;
+    height: 200px;
+    
+}
+.bio p{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.excerpt {
+    border: solid 3px;
+}
+/* About Me Section End  */
 
 /* Project Section Start */
 .applications {
