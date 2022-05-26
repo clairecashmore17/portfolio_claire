@@ -12,6 +12,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+.right {
+    display: block; 
+    margin-left: 0;
+    margin-right: 10px;
+}
 /* Header Start */
 header {
     padding: 30px 35px 0 20px;
@@ -86,8 +91,44 @@ body {
     color: var(--secondary-color);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-/* About Me Section Start */
 
+/* Tabs/sections (About me, Projects, Contact )*/
+section {
+    display:flex;
+    justify-content: space-evenly;
+}
+.aside {
+    width: 100%;
+}
+
+
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 36px;
+    color: var(--secondary-color);
+    padding-bottom: 100px;
+    text-align: left;
+    margin: 0 10px 5px 50px;
+    width: 20%;
+    border-right: 3px solid;
+    border-color: var(--tertiary-color);
+}
+.primary-border {
+    border-color: var(--primary-border-color);
+   
+}
+.secondary-border {
+    border-color: var(--secondary-border-color);
+    left: 40%;
+}
+/* End tabs section */
+
+/* About Me Section Start */
+.bio{
+ 
+}
 .bio img{
     border-radius: 50%;
     width: 250px;
@@ -96,28 +137,10 @@ body {
 }
 .bio p{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     flex-wrap: wrap;
 }
 /* About Me Section End  */
-/* Tabs/sections (About me, Projects, Contact */
-.section-title {
-    font-size: 36px;
-    color: var(--secondary-color);
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-    border-bottom: 3px solid;
-    border-color: var(--tertiary-color);
-}
-.primary-border {
-    border-color: var(--primary-border-color);
-}
-.secondary-border {
-    border-color: var(--secondary-border-color);
-}
-/* End tabs section */
 
 /* Project Section Start */
 .applications {
