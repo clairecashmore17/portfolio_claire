@@ -93,9 +93,6 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-<<<<<<< HEAD
-/* Tabs/sections (About me, Projects, Contact) */
-=======
 /* Tabs/sections (About me, Projects, Contact )*/
 section {
     display:flex;
@@ -108,7 +105,6 @@ section {
 }
 
 
->>>>>>> develop
 .section-title {
     font-size: 36px;
     color: var(--secondary-color);
@@ -133,23 +129,6 @@ section {
 /* End tabs section */
 
 /* About Me Section Start */
-<<<<<<< HEAD
-
-.bio img{
-    border-radius: 50%;
-    width: 250px;
-    height: 200px;
-    
-}
-.bio p{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-}
-.excerpt {
-    border: solid 3px;
-=======
 .bio{
  display: flex;
  justify-content: space-evenly;
@@ -170,7 +149,6 @@ section {
     width: 60%;
     background-color: var(--primary-color) ;
     border-radius: 10%;
->>>>>>> develop
 }
 /* About Me Section End  */
 
