@@ -114,6 +114,9 @@ section {
     border-right: 3px solid;
     border-color: var(--tertiary-color);
 }
+.section-title p{
+    font-size: medium;
+}
 
 .primary-border {
     border-color: var(--primary-border-color);
@@ -130,7 +133,6 @@ section {
  justify-content: space-evenly;
 }
 .bio img{
-    display: block;
     margin: 50px 50px auto 50px;
     border-radius: 50%;
     width: 20%;
@@ -138,12 +140,14 @@ section {
     box-shadow: 5px 5px black;
 }
 .bio p{
-    float: right;
+    text-align: center;
     font-style: italic;
     font-size: medium;
-    line-height: 1.3; 
-    margin-right: 50px;
-     width: 60%;
+    line-height: 1.3;
+    padding: 10px;
+    width: 60%;
+    background-color: var(--primary-color) ;
+    border-radius: 10%;
 }
 /* About Me Section End  */
 
@@ -158,7 +162,7 @@ section {
 .project {
     margin: 10px;
     flex: 1;
-    background-color:rgb(84, 70, 90);
+    background-color:rgba(51, 44, 90, 0.5);
 }
 .project-summary{
     padding: 25px;
@@ -167,6 +171,7 @@ section {
 }
 .project-summary h3{
     font-size: 28px;
+    text-shadow: 3.5px 3.5px black;
 }
 .project-summary p{
     font-size: medium;
@@ -179,6 +184,7 @@ section {
 .project img:hover{
     width: 50%;
 }
+
 /* Project Section End */
 
 /* Contact Information Start */
