@@ -156,8 +156,9 @@ section {
     justify-content: space-around;
 }
 .project {
-    margin: 20px;
+    margin: 10px;
     flex: 1;
+    background-color:rgb(84, 70, 90);
 }
 .project-summary{
     padding: 25px;
@@ -171,8 +172,12 @@ section {
     font-size: medium;
 }
 .project img {
+    margin-top: 10px;
     width: 30%;
     border-radius: 10%;
+}
+.project img:hover{
+    width: 50%;
 }
 /* Project Section End */
 
