@@ -17,7 +17,7 @@
     THEN I am presented with a responsive layout that adapts to my viewport
 </p>
 <h2> Screen Capture of what my portfolio looks like on a screen larger than 980px </h2>
-<img src="./assets/imgs/screencap-one.png" />   
+<img src="./assets/imgs/screencap-one.png" />  
 <img src="./assets/imgs/screencap-two.png" /> 
 
 Deplyoment: https://clairecashmore17.github.io/portfolio_claire/
