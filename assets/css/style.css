@@ -30,6 +30,7 @@ header {
 }
 
 header h1 {
+    
     font-weight: bold;
     font-size: 36px;
     background-color: var(--tertiary-color);
@@ -39,11 +40,12 @@ header h1 {
 }
 header a{
     text-decoration: none;
-    color: var(--secondary-color)
+    color: black;
 }
 /*Section navigation in heading*/
 header nav{
     margin: 7px 0;
+    
 }
 header nav ul {
     display:flex;
@@ -57,6 +59,7 @@ header nav ul li{
 }
 /* correct spacing of nav elements */
 header nav ul li a{
+    color: var(--secondary-color);
     border-bottom: 2px solid ;
     padding: 10px 10px;
     font-weight: lighter;
@@ -86,7 +89,7 @@ header nav ul li a:hover {
     background-position: bottom;
 }
 .subheading {
-   
+    color:black;
     margin: 30px 5px -30px 5px;
     padding-right: 5px;
     padding-left: 5px;
@@ -199,16 +202,19 @@ section {
 }
 .project-big {
     position: relative;
+    margin: 5px;
     width: 65%;
+    max-width: 500px;
     border: 5px solid var(--secondary-border-color);
     
-}
-.project-big-img{
-  width: 100%;
 }
 
 .project-big-image {
     opacity: 0.3;
+
+}
+.project-big-image img {
+    width: 100%;
 }
 .project-big-image:hover {
     opacity: 1;
@@ -235,14 +241,15 @@ section {
 }
 .project {
     position: relative;
-    width: 35%;
-    height: 50%;
+    height: 200px;
+    width: 400px;
     margin: 3px;
     border: 5px solid var(--secondary-border-color);
 }
 .project img{
     width: 100%;
-   
+    height: 200px;
+    max-width: 400px;
     
 }
 .project-summary{
@@ -264,6 +271,7 @@ section {
 }
 
 .project-image {
+    
     opacity: 0.3;
 }
 .project-image:hover {
@@ -289,6 +297,7 @@ section {
 }
 .info ul li{
     padding: 10px 10px;
+    margin: 5px;
     color:var(--secondary-color);
     border-bottom: 3px solid var(--secondary-border-color);
 }
@@ -347,6 +356,35 @@ section {
     .project {
         flex: 0 70%;
     }
+    .project {
+        height: 100px;
+        width: 150px;
+        margin: 3px;
+        border: 5px solid var(--secondary-border-color);
+    }
+    .project img{
+        width: 100%;
+        max-height: 100px;   
+    }
+    .project-summary{
+        position: absolute;
+        bottom: 8px; 
+        height: 50px;
+        width: 50%;
+        line-height: 1.3;
+       
+        background-color: var(--secondary-border-color); 
+    }
+    .project-summary h3{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        text-shadow: 1px 1px black;
+    }
+    .project-summary p{
+        margin: 0;
+        font-size: medium;
+    }
   
  }
   
@@ -359,6 +397,19 @@ section {
   .bio img{
     margin: auto;
   }
+  .project-big {
+    position: relative;
+    margin: 5px;
+    width: 65%;
+    max-width: 500px;
+    border: 5px solid var(--secondary-border-color);
+    
+}
+
+.project-big-image img {
+    width: 100%;
+    max-width: 445px; 
+}
   }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
