@@ -18,7 +18,6 @@
 </p>
 <h2> Screen Capture of what my portfolio looks like on a screen larger than 980px </h2>
 <img src="./assets/imgs/screencap-one.png" />  
-<img src="./assets/imgs/screencap-two.png" /> 
-<img src="./assets/imgs/screencap-three.png" /> 
+
 
 Deplyoment: https://clairecashmore17.github.io/portfolio_claire/
